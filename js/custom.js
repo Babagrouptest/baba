@@ -367,3 +367,16 @@ jQuery(function ($) {
 	$('#back-to-top').tooltip('hide');
 
 });
+
+var email = 'info@babagroup.info';
+$("#submit").bind("click", function() {
+	var name = document.getElementById("name").value;
+	var subject = document.getElementById("subject").value;
+	var body_message = document.getElementById("message").value;
+
+	var mailto_link = 'mailto:' + email + '?subject=' +
+										subject + '&body= Hi, I am '+name +
+										',<br>'+ body_message;
+	win = window.open(mailto_link, 'emailWindow');
+	if (win && win.open && !win.closed) win.close();
+});
