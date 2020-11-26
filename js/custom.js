@@ -49,9 +49,8 @@ jQuery(function ($) {
 	if ($('#map').length > 0) {
 
 		var contactmap = {
-			lat: 40.742964,
-			lng: -73.992277
-		};
+			lat: 25.2565536,
+			lng: 55.3037643		};
 
 		$('#map')
 			.gmap3({
@@ -67,7 +66,7 @@ jQuery(function ($) {
 
 			.infowindow({
 				position: contactmap,
-				content: "NYC Seminar and Conference Center, New York"
+				content: "Baba Group Of Companies, UAE"
 			})
 
 			.then(function (infowindow) {
