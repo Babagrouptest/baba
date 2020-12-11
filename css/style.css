@@ -893,7 +893,7 @@ ul.navbar-nav>li>a i {
 
 /* Dropdown */
 .dropdown{
-        margin-right: 0;
+        margin-right: 0px;
     text-align: left;
 }
 .dropdown-submenu {
