@@ -933,7 +933,7 @@ ul.navbar-nav>li>a i {
 }
 
 .dropdown-menu {
-    text-align: right;
+    text-align: left;
     background: #fff;
     z-index: 100;
     min-width: 200px;
