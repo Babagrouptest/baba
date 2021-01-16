@@ -1,0 +1,131 @@
+{
+	"SessionData" : {
+		"JobId" : "736968",
+		"CompanyId" : "22",
+		"QnectServer" : "http:\/\/dev1.app.qnect.com\/",
+		"TeklaVersion" : "2019i",
+		"ModelName" : "QNT-5663.db1"
+	},
+	"Parts" : [
+	{
+			"Name" : "BRACE COL",
+			"PartID" : 33483,
+			"GUID" : "02588A21-5094-4FDF-A266-61ADAF4392F2",
+			"Material" : "A992",
+			"PartProfile" : "W10X100",
+			"Type" : "Beam",
+			"CoordSysOrigin" : {
+				"X" : 16764,
+				"Y" : 1676.4,
+				"Z" : -609.6
+			},
+			"CoordSysAxisX" : {
+				"X" : 0,
+				"Y" : 0,
+				"Z" : 6705.6
+			},
+			"CoordSysAxisY" : {
+				"X" : -1000,
+				"Y" : 0,
+				"Z" : 0
+			},
+			"End1" : {
+				"EndPoint" : {
+					"X" : 16622.7125,
+					"Y" : 1676.4,
+					"Z" : -609.6
+				}
+			},
+			"End2" : {
+				"EndPoint" : {
+					"X" : 16622.7125,
+					"Y" : 1676.4,
+					"Z" : 6096
+				}
+			}
+		},
+		
+		{
+			"Name" : "VERTICAL_BRACE",
+			"PartID" : 33866,
+			"GUID" : "60C8369D-843F-4C74-8B24-01707F055F7B",
+			"Material" : "A500-GR.B",
+			"PartProfile" : "HSS10X10X1\/2",
+			"Type" : "Beam",
+			"PositionDepth" : "MIDDLE",
+			"CoordSysOrigin" : {
+				"X" : 16764,
+				"Y" : 1676.4,
+				"Z" : 3048
+			},
+			"CoordSysAxisX" : {
+				"X" : 0,
+				"Y" : 3352.79999917861,
+				"Z" : 3048.00000090098
+			},
+			"CoordSysAxisY" : {
+				"X" : 0,
+				"Y" : -672.672794195407,
+				"Z" : 739.940073214948
+			},
+			"End1" : {
+				"EndPoint" : {
+					"X" : 16764,
+					"Y" : 1676.4,
+					"Z" : 3048
+				},
+				"AxialTLoad" : 44482.222,
+				"AxialCLoad" : 44482.222
+			},
+			"End2" : {
+				"EndPoint" : {
+					"X" : 16764,
+					"Y" : 5029.19999917861,
+					"Z" : 6096.00000090098
+				},
+				"AxialTLoad" : 44482.222,
+				"AxialCLoad" : 44482.222
+			}
+		},
+		{
+			"Name" : "BEAM",
+			"PartID" : 33795,
+			"GUID" : "4D263FD7-52AB-48DC-A60E-5AD28E69456F",
+			"Material" : "A992",
+			"PartProfile" : "W16X40",
+			"Type" : "Beam",
+			"CoordSysOrigin" : {
+				"X" : 16764,
+				"Y" : 1676.4,
+				"Z" : 3048
+			},
+			"CoordSysAxisX" : {
+				"X" : 0,
+				"Y" : 3352.8,
+				"Z" : 0
+			},
+			"CoordSysAxisY" : {
+				"X" : 0,
+				"Y" : 0,
+				"Z" : 1000
+			},
+			"End1" : {
+				"EndPoint" : {
+					"X" : 16764,
+					"Y" : 1676.4,
+					"Z" : 3251.2
+				},
+				"VShearLoad" : 44482.222
+			},
+			"End2" : {
+				"EndPoint" : {
+					"X" : 16764,
+					"Y" : 5029.2,
+					"Z" : 3251.2
+				},
+				"VShearLoad" : 44482.222
+			}
+		},
+		
+	]
+}
